@@ -14,7 +14,7 @@ public class ScreenSoundContext : DbContext
     public DbSet<Artista> Artistas { get; set; }
     public DbSet<Musica> Musicas { get; set; }
     public DbSet<Genero> Generos { get; set; }
-    private string connectionString = "Server=localhost,1433\\Catalog=myDatabase;Database=ScreenSoundDBV0;User=sa;Password=Soljuga3;TrustServerCertificate=true";
+    private string connectionString = "";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
